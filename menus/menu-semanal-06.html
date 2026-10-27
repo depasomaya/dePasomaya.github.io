@@ -10,829 +10,833 @@
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}a{color:inherit}.container{width:min(1180px,calc(100% - 32px));margin:auto}.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--jamaica-dark),var(--jamaica) 62%,var(--coral));color:#fff8e8;padding:24px 0 74px}.hero:after{content:"";position:absolute;inset:auto -8% -70px;height:130px;background:var(--cream);border-radius:50% 50% 0 0/60% 60% 0 0}.brand{display:flex;align-items:center;justify-content:space-between;gap:16px}.brand-mark{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.04em}.brand-mark i{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--sun);color:var(--jamaica-dark);font-style:normal}.back{padding:9px 14px;border:1px solid rgba(255,255,255,.45);border-radius:999px;text-decoration:none;font-weight:700}.hero-copy{position:relative;z-index:1;max-width:780px;padding:58px 0 18px}.eyebrow{margin:0 0 8px;color:var(--sun);font-size:.82rem;font-weight:900;letter-spacing:.15em;text-transform:uppercase}.hero h1{margin:0;font-size:clamp(2.4rem,7vw,5.2rem);line-height:.95;letter-spacing:-.05em}.hero .dek{max-width:640px;margin:20px 0 0;font-size:1.08rem;color:#f7dfd2}.meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.meta span{padding:9px 13px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2)}main{position:relative;z-index:2;margin-top:-30px;padding-bottom:70px}.section{margin:0 0 56px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:18px}.section-head p{margin:0;color:var(--muted);max-width:620px}.section-head h2{margin:0;color:var(--jamaica-dark);font-size:clamp(1.7rem,4vw,2.6rem);letter-spacing:-.03em}.weekly-grid{display:grid;grid-template-columns:repeat(7,minmax(220px,1fr));gap:14px;overflow-x:auto;padding:4px 4px 18px;scroll-snap-type:x proximity}.day-card{scroll-snap-align:start;min-width:220px;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}.day-card h3{display:flex;align-items:center;justify-content:space-between;margin:0;padding:16px 18px;background:var(--jamaica);color:white;font-size:1.05rem}.day-card h3 span{font-size:.75rem;font-weight:600;color:#f8dcd3}.meal-list{display:grid}.meal-slot{display:block;min-height:118px;padding:15px 17px;text-decoration:none;border-bottom:1px solid var(--line);transition:.2s}.meal-slot:last-child{border:0}.meal-slot:hover,.meal-slot:focus-visible{background:#fff3d1;outline:none}.meal-label{display:block;color:var(--palm);font-size:.75rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}.meal-slot strong{display:block;margin:7px 0 11px;line-height:1.25}.slot-meta{color:var(--muted);font-size:.82rem}.detail-day{display:grid;grid-template-columns:180px 1fr;gap:24px;padding:28px 0;border-top:1px solid var(--line)}.day-heading{position:sticky;top:20px;align-self:start}.day-heading p{margin:0;color:var(--coral);font-size:.76rem;font-weight:900;letter-spacing:.13em;text-transform:uppercase}.day-heading h3{margin:2px 0;color:var(--jamaica-dark);font-size:2rem}.day-heading span{color:var(--muted)}.dish-stack{display:grid;gap:12px}.dish{background:var(--paper);border:1px solid var(--line);border-radius:18px;box-shadow:0 7px 22px rgba(77,35,24,.08);overflow:hidden;scroll-margin-top:20px}.dish summary{display:grid;grid-template-columns:120px 1fr auto;align-items:center;gap:16px;padding:17px 20px;cursor:pointer;list-style:none}.dish summary::-webkit-details-marker{display:none}.dish summary:after{content:"＋";color:var(--jamaica);font-size:1.2rem}.dish[open] summary:after{content:"−"}.summary-kicker{color:var(--palm);font-size:.76rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase}.summary-title{font-weight:800}.summary-metrics{color:var(--muted);font-size:.85rem}.dish-body{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(260px,.6fr);gap:22px;padding:0 20px 22px;border-top:1px solid var(--line)}.dish-main{display:grid;gap:18px;padding-top:20px}.dish h4{margin:0 0 8px;color:var(--jamaica-dark);font-size:.82rem;letter-spacing:.09em;text-transform:uppercase}.rich-field{min-height:78px;padding:14px;background:#fff8e8;border:1px dashed #d9bfa1;border-radius:12px;white-space:pre-line}.dish-facts{padding:20px 0 0}.dish-facts dl{margin:0 0 18px}.dish-facts dl div{display:flex;justify-content:space-between;gap:14px;padding:8px 0;border-bottom:1px solid var(--line)}dt{color:var(--muted)}dd{margin:0;text-align:right;font-weight:700}.compatibility{display:flex;flex-wrap:wrap;gap:7px;margin:0;padding:0;list-style:none}.compatibility li{display:flex;gap:6px;padding:6px 9px;border-radius:999px;background:#edf6ee;color:#205939;font-size:.76rem}.compatibility strong{font-weight:900}.notes{margin:16px 0 0;padding:12px;border-left:4px solid var(--sun);background:#fff8e8;color:var(--muted);font-size:.86rem}.notice{display:grid;grid-template-columns:auto 1fr;gap:13px;padding:18px 20px;background:#fff1bd;border:1px solid #e1ba49;border-radius:16px}.notice strong{color:var(--jamaica-dark)}footer{padding:26px 0;background:var(--jamaica-dark);color:#f8e9dc}.footer-row{display:flex;justify-content:space-between;gap:22px;align-items:center}.footer-row p{margin:0}.footer-row small{color:#ddc2b7}.print-button{border:0;border-radius:999px;background:var(--sun);color:var(--jamaica-dark);padding:10px 16px;font-weight:900;cursor:pointer}
     @media(max-width:760px){.hero{padding-bottom:58px}.hero-copy{padding-top:42px}.section-head{align-items:flex-start;flex-direction:column;gap:8px}.section-head p{max-width:none}.section-head h2{line-height:1.08}.weekly-grid{grid-template-columns:repeat(7,82vw)}.detail-day{grid-template-columns:1fr}.day-heading{position:static}.dish summary{grid-template-columns:1fr auto}.summary-kicker{grid-column:1}.summary-title{grid-column:1}.summary-metrics{display:none}.dish summary:after{grid-column:2;grid-row:1/3}.dish-body{grid-template-columns:1fr}.footer-row{align-items:flex-start;flex-direction:column}}
     @media print{body{background:white;font-size:10pt}.hero{padding:18px 0;background:#fff;color:#222;border-bottom:3px solid var(--jamaica)}.hero:after,.back,.print-button{display:none}.hero .eyebrow,.hero h1{color:var(--jamaica-dark)}.hero .dek,.meta span{color:#444}.hero-copy{padding:24px 0 8px}.meta span{border-color:#aaa}.container{width:100%;max-width:none}.weekly-grid{display:grid;grid-template-columns:repeat(4,1fr);overflow:visible}.day-card{box-shadow:none;break-inside:avoid}.meal-slot{min-height:80px}.detail-day{display:block;break-before:page}.day-heading{position:static}.dish{box-shadow:none;break-inside:avoid}.dish[open] .dish-body{display:grid}.dish:not([open]) .dish-body{display:grid}.dish summary:after{display:none}footer{background:white;color:#222;border-top:1px solid #aaa}.section{margin-bottom:28px}}
+  
+    /* FIX 2026-10-16: la columna derecha del detalle no se corta aunque un valor no tenga espacios */
+    .dish-facts{min-width:0}
+    .dish-facts dd,.rich-field,.compatibility li{overflow-wrap:anywhere;word-break:break-word}
   </style>
 </head>
 <body>
   <header class="hero">
     <div class="container">
       <div class="brand"><div class="brand-mark"><i>DM</i><span>DePasoMaya</span></div><a class="back" href="../index.html">← Volver al inicio</a></div>
-      <div class="hero-copy"><p class="eyebrow">Menú semanal · listo para llevar</p><h1>Menú Semanal 06</h1><p class="dek">Menú semanal DePasoMaya: desayuno, comida, colación y cena, de lunes a domingo.</p><div class="meta"><span>Semana: {{SEMANA_INICIO}} — {{SEMANA_FIN}}</span><span>Plan: {{LINEA_ALIMENTACION}}</span><span>{{NUMERO_PORCIONES}} porciones</span></div></div>
+      <div class="hero-copy"><p class="eyebrow">Menú semanal · listo para llevar</p><h1>Menú Semanal 06</h1><p class="dek">Menú semanal DePasoMaya: desayuno, comida, colación y cena, de lunes a domingo.</p><div class="meta"><span>Menú semanal DePasoMaya</span><span>Desayuno · comida · colación · cena</span></div></div>
     </div>
   </header>
   <main class="container">
     <section class="section" aria-labelledby="cuadricula-title">
       <div class="section-head"><div><p class="eyebrow">Vista rápida</p><h2 id="cuadricula-title">Tu semana de un vistazo</h2></div><p>Selecciona un platillo para consultar ingredientes, preparación y datos alimentarios.</p></div>
       <div class="weekly-grid"><article class="day-card">
-          <h3>Lunes<span>{{FECHA_LUNES_DIA}}</span></h3>
+          <h3>Lunes</h3>
           <div class="meal-list"><a class="meal-slot" href="#lunes-desayuno">
               <span class="meal-label"><span aria-hidden="true">☀</span> Desayuno</span>
               <strong>Sandwich de huevo, mayonesa, cebollin</strong>
-              <span class="slot-meta">{{TIEMPO_LUNES_DESAYUNO}} · {{CALORIAS_LUNES_DESAYUNO}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#lunes-comida">
               <span class="meal-label"><span aria-hidden="true">●</span> Comida</span>
               <strong>Caldo de res</strong>
-              <span class="slot-meta">{{TIEMPO_LUNES_COMIDA}} · {{CALORIAS_LUNES_COMIDA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#lunes-colacion">
               <span class="meal-label"><span aria-hidden="true">◆</span> Colación</span>
               <strong>Hotcakes de platano</strong>
-              <span class="slot-meta">{{TIEMPO_LUNES_COLACION}} · {{CALORIAS_LUNES_COLACION}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#lunes-cena">
               <span class="meal-label"><span aria-hidden="true">☾</span> Cena</span>
               <strong>Crema de espinaca</strong>
-              <span class="slot-meta">{{TIEMPO_LUNES_CENA}} · {{CALORIAS_LUNES_CENA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a></div>
         </article>
 <article class="day-card">
-          <h3>Martes<span>{{FECHA_MARTES_DIA}}</span></h3>
+          <h3>Martes</h3>
           <div class="meal-list"><a class="meal-slot" href="#martes-desayuno">
               <span class="meal-label"><span aria-hidden="true">☀</span> Desayuno</span>
               <strong>Sandwich de jamón, queso, mayonesa, pollo, tocino, lechuga y jitomate</strong>
-              <span class="slot-meta">{{TIEMPO_MARTES_DESAYUNO}} · {{CALORIAS_MARTES_DESAYUNO}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#martes-comida">
               <span class="meal-label"><span aria-hidden="true">●</span> Comida</span>
               <strong>Sopa de frijol</strong>
-              <span class="slot-meta">{{TIEMPO_MARTES_COMIDA}} · {{CALORIAS_MARTES_COMIDA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#martes-colacion">
               <span class="meal-label"><span aria-hidden="true">◆</span> Colación</span>
               <strong>Ensalada de huevo, espinaca, queso feta, mix de semillas y vinagreta</strong>
-              <span class="slot-meta">{{TIEMPO_MARTES_COLACION}} · {{CALORIAS_MARTES_COLACION}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#martes-cena">
               <span class="meal-label"><span aria-hidden="true">☾</span> Cena</span>
               <strong>Sandwich de pollo con queso, lechuga, jitomate y cebolla</strong>
-              <span class="slot-meta">{{TIEMPO_MARTES_CENA}} · {{CALORIAS_MARTES_CENA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a></div>
         </article>
 <article class="day-card">
-          <h3>Miércoles<span>{{FECHA_MIERCOLES_DIA}}</span></h3>
+          <h3>Miércoles</h3>
           <div class="meal-list"><a class="meal-slot" href="#miercoles-desayuno">
               <span class="meal-label"><span aria-hidden="true">☀</span> Desayuno</span>
               <strong>Galletas de avena</strong>
-              <span class="slot-meta">{{TIEMPO_MIERCOLES_DESAYUNO}} · {{CALORIAS_MIERCOLES_DESAYUNO}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#miercoles-comida">
               <span class="meal-label"><span aria-hidden="true">●</span> Comida</span>
               <strong>Pechuga al horno con jamón y queso con una guarnición de ensalada y verduras al vapor</strong>
-              <span class="slot-meta">{{TIEMPO_MIERCOLES_COMIDA}} · {{CALORIAS_MIERCOLES_COMIDA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#miercoles-colacion">
               <span class="meal-label"><span aria-hidden="true">◆</span> Colación</span>
               <strong>Ensalada de pepino, espinaca, cebolla, zanahoria y cebolla</strong>
-              <span class="slot-meta">{{TIEMPO_MIERCOLES_COLACION}} · {{CALORIAS_MIERCOLES_COLACION}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#miercoles-cena">
               <span class="meal-label"><span aria-hidden="true">☾</span> Cena</span>
               <strong>Sandwich de carne de res con col y vinagreta</strong>
-              <span class="slot-meta">{{TIEMPO_MIERCOLES_CENA}} · {{CALORIAS_MIERCOLES_CENA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a></div>
         </article>
 <article class="day-card">
-          <h3>Jueves<span>{{FECHA_JUEVES_DIA}}</span></h3>
+          <h3>Jueves</h3>
           <div class="meal-list"><a class="meal-slot" href="#jueves-desayuno">
               <span class="meal-label"><span aria-hidden="true">☀</span> Desayuno</span>
               <strong>Pudin de camote</strong>
-              <span class="slot-meta">{{TIEMPO_JUEVES_DESAYUNO}} · {{CALORIAS_JUEVES_DESAYUNO}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#jueves-comida">
               <span class="meal-label"><span aria-hidden="true">●</span> Comida</span>
               <strong>Papas a la crema con jamón y una guarnición de ensalada</strong>
-              <span class="slot-meta">{{TIEMPO_JUEVES_COMIDA}} · {{CALORIAS_JUEVES_COMIDA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#jueves-colacion">
               <span class="meal-label"><span aria-hidden="true">◆</span> Colación</span>
               <strong>Galletas de avena</strong>
-              <span class="slot-meta">{{TIEMPO_JUEVES_COLACION}} · {{CALORIAS_JUEVES_COLACION}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#jueves-cena">
               <span class="meal-label"><span aria-hidden="true">☾</span> Cena</span>
               <strong>Ensalada de pepino, papa, jitomate, huevo, chile serrano y limón</strong>
-              <span class="slot-meta">{{TIEMPO_JUEVES_CENA}} · {{CALORIAS_JUEVES_CENA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a></div>
         </article>
 <article class="day-card">
-          <h3>Viernes<span>{{FECHA_VIERNES_DIA}}</span></h3>
+          <h3>Viernes</h3>
           <div class="meal-list"><a class="meal-slot" href="#viernes-desayuno">
               <span class="meal-label"><span aria-hidden="true">☀</span> Desayuno</span>
               <strong>Sandwich de pollo teriyaki y col</strong>
-              <span class="slot-meta">{{TIEMPO_VIERNES_DESAYUNO}} · {{CALORIAS_VIERNES_DESAYUNO}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#viernes-comida">
               <span class="meal-label"><span aria-hidden="true">●</span> Comida</span>
               <strong>Caldo de res</strong>
-              <span class="slot-meta">{{TIEMPO_VIERNES_COMIDA}} · {{CALORIAS_VIERNES_COMIDA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#viernes-colacion">
               <span class="meal-label"><span aria-hidden="true">◆</span> Colación</span>
               <strong>Pudin de camote</strong>
-              <span class="slot-meta">{{TIEMPO_VIERNES_COLACION}} · {{CALORIAS_VIERNES_COLACION}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#viernes-cena">
               <span class="meal-label"><span aria-hidden="true">☾</span> Cena</span>
               <strong>Ensalada de espinaca con queso feta, vinagreta y nueces</strong>
-              <span class="slot-meta">{{TIEMPO_VIERNES_CENA}} · {{CALORIAS_VIERNES_CENA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a></div>
         </article>
 <article class="day-card">
-          <h3>Sábado<span>{{FECHA_SABADO_DIA}}</span></h3>
+          <h3>Sábado</h3>
           <div class="meal-list"><a class="meal-slot" href="#sabado-desayuno">
               <span class="meal-label"><span aria-hidden="true">☀</span> Desayuno</span>
               <strong>Sandwich de huevo con lechuga, queso y tocino</strong>
-              <span class="slot-meta">{{TIEMPO_SABADO_DESAYUNO}} · {{CALORIAS_SABADO_DESAYUNO}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#sabado-comida">
               <span class="meal-label"><span aria-hidden="true">●</span> Comida</span>
               <strong>Sopa de frijol</strong>
-              <span class="slot-meta">{{TIEMPO_SABADO_COMIDA}} · {{CALORIAS_SABADO_COMIDA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#sabado-colacion">
               <span class="meal-label"><span aria-hidden="true">◆</span> Colación</span>
               <strong>Ensalada de espinaca con pollo, elote crunch y salsa de aguacate</strong>
-              <span class="slot-meta">{{TIEMPO_SABADO_COLACION}} · {{CALORIAS_SABADO_COLACION}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#sabado-cena">
               <span class="meal-label"><span aria-hidden="true">☾</span> Cena</span>
               <strong>Sopa de pasta con espinaca y brocoli</strong>
-              <span class="slot-meta">{{TIEMPO_SABADO_CENA}} · {{CALORIAS_SABADO_CENA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a></div>
         </article>
 <article class="day-card">
-          <h3>Domingo<span>{{FECHA_DOMINGO_DIA}}</span></h3>
+          <h3>Domingo</h3>
           <div class="meal-list"><a class="meal-slot" href="#domingo-desayuno">
               <span class="meal-label"><span aria-hidden="true">☀</span> Desayuno</span>
               <strong>Gelatina con yogurt y nueces</strong>
-              <span class="slot-meta">{{TIEMPO_DOMINGO_DESAYUNO}} · {{CALORIAS_DOMINGO_DESAYUNO}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#domingo-comida">
               <span class="meal-label"><span aria-hidden="true">●</span> Comida</span>
               <strong>Pechuga al horno con jamón y queso con una guarnición de ensalada y verduras al vapor</strong>
-              <span class="slot-meta">{{TIEMPO_DOMINGO_COMIDA}} · {{CALORIAS_DOMINGO_COMIDA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#domingo-colacion">
               <span class="meal-label"><span aria-hidden="true">◆</span> Colación</span>
               <strong>Ensalada con mix de lechuga con pollo, huevo y garbanzos crunch</strong>
-              <span class="slot-meta">{{TIEMPO_DOMINGO_COLACION}} · {{CALORIAS_DOMINGO_COLACION}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a><a class="meal-slot" href="#domingo-cena">
               <span class="meal-label"><span aria-hidden="true">☾</span> Cena</span>
               <strong>Crema de espinaca</strong>
-              <span class="slot-meta">{{TIEMPO_DOMINGO_CENA}} · {{CALORIAS_DOMINGO_CENA}}</span>
+              <span class="slot-meta">Datos nutricionales en preparación</span>
             </a></div>
         </article></div>
     </section>
     <section class="section" aria-labelledby="detalle-title">
       <div class="section-head"><div><p class="eyebrow">Vista extendida</p><h2 id="detalle-title">Detalle por platillo</h2></div><p>Abre cada tarjeta para revisar la información completa.</p></div>
       <section class="detail-day" aria-labelledby="titulo-lunes">
-          <div class="day-heading"><p>Día</p><h3 id="titulo-lunes">Lunes</h3><span>{{FECHA_LUNES_DIA}}</span></div>
+          <div class="day-heading"><p>Día</p><h3 id="titulo-lunes">Lunes</h3></div>
           <div class="dish-stack"><details class="dish" id="lunes-desayuno">
               <summary>
                 <span class="summary-kicker">Desayuno</span>
                 <span class="summary-title">Sandwich de huevo, mayonesa, cebollin</span>
-                <span class="summary-metrics">{{TIEMPO_LUNES_DESAYUNO}} · {{CALORIAS_LUNES_DESAYUNO}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_LUNES_DESAYUNO}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_LUNES_DESAYUNO}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>6 rebanadas de pan de caja, cantidad suficiente de aceite, cantidad suficiente de agua, 8 huevos, 1/4 de taza de perejil, 2 tazas de cebollín, sal al gusto, pimienta al gusto, 1/2 cucharada de paprika, 1/2 taza de mayonesa, cebollín al gusto para decorar, aguacate al gusto.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Usa un rodillo para aplanar las rebanadas de pan, junta dos esquinas de los panes para formar un taco y coloca un palillo.</li><li>En una sartén, calienta el aceite a temperatura media y fríe los panes durante 3 minutos o hasta que estén dorados; escurre y reserva.</li><li>Cocina los huevos en una olla con suficiente agua hirviendo por 9 minutos, retira del agua y deja enfriar.</li><li>Retira la cáscara de los huevos, colócalos en un bowl y agrega perejil, cebollín, sal, pimienta y paprika; usa un tenedor para machacar hasta que estén ligeramente triturados.</li><li>Agrega la mayonesa y mezcla hasta integrar.</li><li>Retira el palillo de los panes fritos, rellena con la ensalada de huevo, sirve y decora con cebollín y aguacate.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_LUNES_DESAYUNO}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_LUNES_DESAYUNO}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_LUNES_DESAYUNO}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_LUNES_DESAYUNO}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_LUNES_DESAYUNO}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_LUNES_DESAYUNO}}</strong></li><li><span>Keto</span><strong>{{KETO_LUNES_DESAYUNO}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_LUNES_DESAYUNO}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_LUNES_DESAYUNO}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_LUNES_DESAYUNO}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_LUNES_DESAYUNO}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_LUNES_DESAYUNO}}</strong></li><li><span>Balance</span><strong>{{BALANCE_LUNES_DESAYUNO}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_LUNES_DESAYUNO}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="lunes-comida">
               <summary>
                 <span class="summary-kicker">Comida</span>
                 <span class="summary-title">Caldo de res</span>
-                <span class="summary-metrics">{{TIEMPO_LUNES_COMIDA}} · {{CALORIAS_LUNES_COMIDA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_LUNES_COMIDA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_LUNES_COMIDA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>1 kilo de chamberete de res con tuétano, 3 papas medianas peladas y cortadas en cubos, 3 zanahorias peladas y cortadas en rodajas, 1 chayote pelado y cortado en cubos, 2 calabacitas verdes cortadas en rodajas, 2 tomates grandes picados, 1 cebolla grande picada, 4 dientes de ajo finamente picados, 1/4 de repollo cortado en tiras, 2 elotes enteros partidos en tres o cuatro partes, 1 manojo de cilantro finamente picado, sal al gusto, agua suficiente para cubrir, limón en cuartos para servir.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>En una olla grande, colocar el chamberete de res con suficiente agua para cubrirlo.</li><li>Llevar a ebullición y desespumar el caldo para quitar las impurezas.</li><li>Añadir la cebolla, los dientes de ajo y sal al gusto.</li><li>Reducir el fuego y dejar cocinar por aproximadamente 1 hora y 30 minutos, o hasta que la carne esté casi tierna.</li><li>Incorporar las papas, zanahorias, chayote, calabacitas, tomates y elotes, asegurándose de que haya suficiente agua para cubrir todos los ingredientes.</li><li>Continuar la cocción a fuego medio-bajo por unos 45 minutos más, o hasta que los vegetales estén cocidos.</li><li>Probar el caldo y ajustar la sal al gusto.</li><li>Añadir el repollo y cocinar por 10 minutos adicionales, o hasta que esté suave pero aún tenga algo de textura.</li><li>Servir el caldo caliente en tazones, agregar cilantro fresco picado al gusto en cada porción y ofrecer limón en cuartos.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_LUNES_COMIDA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_LUNES_COMIDA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_LUNES_COMIDA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_LUNES_COMIDA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_LUNES_COMIDA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_LUNES_COMIDA}}</strong></li><li><span>Keto</span><strong>{{KETO_LUNES_COMIDA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_LUNES_COMIDA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_LUNES_COMIDA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_LUNES_COMIDA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_LUNES_COMIDA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_LUNES_COMIDA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_LUNES_COMIDA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_LUNES_COMIDA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="lunes-colacion">
               <summary>
                 <span class="summary-kicker">Colación</span>
                 <span class="summary-title">Hotcakes de platano</span>
-                <span class="summary-metrics">{{TIEMPO_LUNES_COLACION}} · {{CALORIAS_LUNES_COLACION}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_LUNES_COLACION}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_LUNES_COLACION}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>2 huevos, 2 tazas de leche de vaca, 1 cucharada de jugo de limón, 6 cucharadas de mantequilla sin sal, 1 1/2 tazas de harina, 1/4 taza de azúcar, 2 cucharadas de polvo para hornear, 1/2 cucharada de sal de mar, 4 plátanos.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Agrega el jugo de limón a la leche y deja reposar por 5 minutos.</li><li>En un recipiente hondo mezcla los huevos y la leche con limón.</li><li>Agrega la mantequilla derretida.</li><li>En otro recipiente hondo mezcla la harina, el azúcar, el polvo para hornear y la sal.</li><li>Agrega los ingredientes secos a los ingredientes mojados y combina.</li><li>Agrega 2 plátanos previamente machacados.</li><li>Toma un sartén grande, engrasa con espray para cocinar y calienta.</li><li>Para cada hotcake pon unas rodajas de plátano y pon 1 cucharada grande para servir sopa o 3 cucharadas normales de masa.</li><li>Cocina por 3 minutos, voltea y cocina por 2 minutos más del otro lado.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_LUNES_COLACION}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_LUNES_COLACION}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_LUNES_COLACION}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_LUNES_COLACION}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_LUNES_COLACION}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_LUNES_COLACION}}</strong></li><li><span>Keto</span><strong>{{KETO_LUNES_COLACION}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_LUNES_COLACION}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_LUNES_COLACION}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_LUNES_COLACION}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_LUNES_COLACION}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_LUNES_COLACION}}</strong></li><li><span>Balance</span><strong>{{BALANCE_LUNES_COLACION}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_LUNES_COLACION}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="lunes-cena">
               <summary>
                 <span class="summary-kicker">Cena</span>
                 <span class="summary-title">Crema de espinaca</span>
-                <span class="summary-metrics">{{TIEMPO_LUNES_CENA}} · {{CALORIAS_LUNES_CENA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_LUNES_CENA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_LUNES_CENA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>3 cucharadas de mantequilla sin sal, 3/4 taza de cebolla en cubos grandes, 1 diente de ajo, 2 paquetes de espinaca, 3 tazas de leche, 1 taza de media crema, cantidad suficiente de sal, cantidad suficiente de pimienta, cantidad suficiente de queso añejo para decorar, cantidad suficiente de espinaca fresca para decorar.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Calentar la mantequilla en una olla a temperatura media y sofreír la cebolla y el ajo por 3 minutos, hasta que estén completamente traslúcidos.</li><li>Agregar la espinaca y sofreír unos minutos más.</li><li>Agregar la leche y la crema, esperar a que hierva, luego sazonar con sal y pimienta y retirar del fuego.</li><li>Licuar lo anterior por 3 minutos y regresar a la olla para calentar nuevamente la crema.</li><li>Pasar por un colador si se considera necesario y sazonar nuevamente si lo requiere.</li><li>Servir la crema de espinaca y decorar con queso desmoronado y espinaca fresca.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_LUNES_CENA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_LUNES_CENA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_LUNES_CENA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_LUNES_CENA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_LUNES_CENA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_LUNES_CENA}}</strong></li><li><span>Keto</span><strong>{{KETO_LUNES_CENA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_LUNES_CENA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_LUNES_CENA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_LUNES_CENA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_LUNES_CENA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_LUNES_CENA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_LUNES_CENA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_LUNES_CENA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details></div>
         </section>
 <section class="detail-day" aria-labelledby="titulo-martes">
-          <div class="day-heading"><p>Día</p><h3 id="titulo-martes">Martes</h3><span>{{FECHA_MARTES_DIA}}</span></div>
+          <div class="day-heading"><p>Día</p><h3 id="titulo-martes">Martes</h3></div>
           <div class="dish-stack"><details class="dish" id="martes-desayuno">
               <summary>
                 <span class="summary-kicker">Desayuno</span>
                 <span class="summary-title">Sandwich de jamón, queso, mayonesa, pollo, tocino, lechuga y jitomate</span>
-                <span class="summary-metrics">{{TIEMPO_MARTES_DESAYUNO}} · {{CALORIAS_MARTES_DESAYUNO}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_MARTES_DESAYUNO}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_MARTES_DESAYUNO}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>4 milanesas de pollo (180 g cada una), 8 rebanadas de tocino, 8 rebanadas de queso manchego, 1/2 taza de mayonesa, 1/4 de taza de mostaza, 12 rebanadas de jamón, 8 hojas de lechuga italiana, 8 rebanadas de queso amarillo, 1 jitomate bola en rebanadas delgadas, 1 aguacate en rebanadas delgadas, 2 cucharadas de aceite, sal y pimienta al gusto, 12 piezas de pan blanco de caja, 2 cucharadas de mantequilla.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><p>1. Coloca en un sartén caliente el tocino y dóralo por ambos lados; retira el exceso de grasa y reserva. 2. Vierte un poco de aceite en esa misma sartén, cocina las milanesas de pollo por ambos lados, salpimienta, corta en tres cada una y reserva. 3. Unta la mantequilla en cada rebanada de pan y tuesta en una sartén por ambos lados. 4. Unta mayonesa en las tres rebanadas de pan. 5. Acomoda las rebanadas de pechuga sobre una rebanada de pan y cubre con dos rebanadas de queso manchego y una rebanada de pan. 6. Unta sobre esa tapa la mostaza, acomoda dos rebanadas de jamón y sobre estas el tocino troceado. 7. Coloca la hoja de lechuga en la rebanada de pan restante, acomoda otra rebanada de jamón y dos rebanadas de queso amarillo, y añade las rebanadas de aguacate. 8. Acomoda las rebanadas de jitomate sobre el tocino y cubre con la otra rebanada de pan que tiene el aguacate. 9. Coloca cuatro palillos, uno en cada cara de la rebanada, corta a la mitad de manera diagonal y de nuevo para formar pequeños triángulos. 10. Sirve y acompaña con papas y chiles en vinagre al gusto.</p></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_MARTES_DESAYUNO}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_MARTES_DESAYUNO}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_MARTES_DESAYUNO}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_MARTES_DESAYUNO}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_MARTES_DESAYUNO}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_MARTES_DESAYUNO}}</strong></li><li><span>Keto</span><strong>{{KETO_MARTES_DESAYUNO}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_MARTES_DESAYUNO}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_MARTES_DESAYUNO}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_MARTES_DESAYUNO}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_MARTES_DESAYUNO}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_MARTES_DESAYUNO}}</strong></li><li><span>Balance</span><strong>{{BALANCE_MARTES_DESAYUNO}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_MARTES_DESAYUNO}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="martes-comida">
               <summary>
                 <span class="summary-kicker">Comida</span>
                 <span class="summary-title">Sopa de frijol</span>
-                <span class="summary-metrics">{{TIEMPO_MARTES_COMIDA}} · {{CALORIAS_MARTES_COMIDA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_MARTES_COMIDA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_MARTES_COMIDA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>2 tazas de frijoles negros cocidos, 2 tazas de caldo de frijoles, 3 tiras de tocino frito picado, 3 tortillas en tiritas fritas, 2 cucharadas de aceite o manteca, 1 jitomate asado, molido y colado, 1 ramita de epazote, ½ cebolla mediana picada, sal y pimienta al gusto.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Freír el tocino con el aceite hasta que esté bien dorado y cortarlo en pedacitos; reservar.</li><li>Sofreír la cebolla en la misma sartén.</li><li>Licuar los frijoles y vaciarlos en la sartén sobre la cebolla, integrar y calentar por cinco minutos.</li><li>Aparte, freír el jitomate molido y colado.</li><li>Incorporarlo a los frijoles con el caldo y el epazote, salpimentar y permitir que espese por 10 minutos a fuego bajo.</li><li>Distribuir en platos y colocar tiritas de tortilla y un poco de tocino en trocitos al llevar a la mesa.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_MARTES_COMIDA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_MARTES_COMIDA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_MARTES_COMIDA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_MARTES_COMIDA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_MARTES_COMIDA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_MARTES_COMIDA}}</strong></li><li><span>Keto</span><strong>{{KETO_MARTES_COMIDA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_MARTES_COMIDA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_MARTES_COMIDA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_MARTES_COMIDA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_MARTES_COMIDA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_MARTES_COMIDA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_MARTES_COMIDA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_MARTES_COMIDA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="martes-colacion">
               <summary>
                 <span class="summary-kicker">Colación</span>
                 <span class="summary-title">Ensalada de huevo, espinaca, queso feta, mix de semillas y vinagreta</span>
-                <span class="summary-metrics">{{TIEMPO_MARTES_COLACION}} · {{CALORIAS_MARTES_COLACION}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_MARTES_COLACION}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_MARTES_COLACION}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>12 huevos; 1 taza de espinaca baby; 1 taza de jitomates cherry partidos por la mitad; 1 pepino en cubos; 1 taza de queso feta en cubos; sal y pimienta negra al gusto; 1 cucharadita de aceite de oliva o mantequilla para cocinar; jugo de limón o glaseado balsámico opcional para aderezar.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Casca los huevos en un sartén ligeramente engrasado y cocínalos a fuego medio hasta que cuajen pero sigan suaves, unos 3 a 4 minutos, rompiéndolos en trozos mientras se cocinan.</li><li>Lava y corta los jitomates cherry y el pepino; corta el feta en cubos.</li><li>Coloca la espinaca en un tazón y agrega los jitomates, el pepino, el feta y los huevos cocidos.</li><li>Espolvorea sal y pimienta, rocía con jugo de limón o aceite de oliva y sirve fresco.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_MARTES_COLACION}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_MARTES_COLACION}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_MARTES_COLACION}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_MARTES_COLACION}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_MARTES_COLACION}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_MARTES_COLACION}}</strong></li><li><span>Keto</span><strong>{{KETO_MARTES_COLACION}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_MARTES_COLACION}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_MARTES_COLACION}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_MARTES_COLACION}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_MARTES_COLACION}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_MARTES_COLACION}}</strong></li><li><span>Balance</span><strong>{{BALANCE_MARTES_COLACION}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_MARTES_COLACION}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="martes-cena">
               <summary>
                 <span class="summary-kicker">Cena</span>
                 <span class="summary-title">Sandwich de pollo con queso, lechuga, jitomate y cebolla</span>
-                <span class="summary-metrics">{{TIEMPO_MARTES_CENA}} · {{CALORIAS_MARTES_CENA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_MARTES_CENA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_MARTES_CENA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>2 hojas de lechuga, 1 jitomate, 1/4 de cebolla, 50 gramos de tocino, 1 taza de pollo desmenuzado, 1 cucharadita de vinagre, 1/2 cucharadita de pimentón, sal y pimienta, queso rallado, 2 rebanadas de pan blanco o de hogaza, mantequilla.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Lava y desinfecta la lechuga, el jitomate y la cebolla; trocea la lechuga en pedazos grandes, corta el jitomate en rebanadas y la cebolla en medias lunas o rodajas.</li><li>Fríe el tocino en un sartén caliente hasta que quede crujiente y haya soltado su grasa.</li><li>En el mismo sartén, agrega el pollo desmenuzado y sazona con el vinagre, el pimentón, la sal y la pimienta hasta que esté ligeramente dorado.</li><li>Retira del fuego, coloca el queso rallado, deja que se forme una costra y coloca encima el pollo.</li><li>Sirve en los panes untados con mantequilla por ambos lados, agrega la cebolla, el jitomate, la lechuga y el tocino frito.</li><li>Termina el sándwich y tuéstalo ligeramente de nuevo sobre el sartén antes de servir.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_MARTES_CENA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_MARTES_CENA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_MARTES_CENA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_MARTES_CENA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_MARTES_CENA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_MARTES_CENA}}</strong></li><li><span>Keto</span><strong>{{KETO_MARTES_CENA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_MARTES_CENA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_MARTES_CENA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_MARTES_CENA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_MARTES_CENA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_MARTES_CENA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_MARTES_CENA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_MARTES_CENA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details></div>
         </section>
 <section class="detail-day" aria-labelledby="titulo-miercoles">
-          <div class="day-heading"><p>Día</p><h3 id="titulo-miercoles">Miércoles</h3><span>{{FECHA_MIERCOLES_DIA}}</span></div>
+          <div class="day-heading"><p>Día</p><h3 id="titulo-miercoles">Miércoles</h3></div>
           <div class="dish-stack"><details class="dish" id="miercoles-desayuno">
               <summary>
                 <span class="summary-kicker">Desayuno</span>
                 <span class="summary-title">Galletas de avena</span>
-                <span class="summary-metrics">{{TIEMPO_MIERCOLES_DESAYUNO}} · {{CALORIAS_MIERCOLES_DESAYUNO}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_MIERCOLES_DESAYUNO}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_MIERCOLES_DESAYUNO}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>2 tazas de harina (250 g), 1 cucharadita de bicarbonato (4 g), 1 cucharadita de canela en polvo (4 g), 1/4 cucharadita de sal (3 g), 1 1/8 tazas de mantequilla sin sal, en cubos y a temperatura ambiente (230 g), 1/2 taza de azúcar mascabado (90 g), 1/2 taza de azúcar refinada (100 g), 2 huevos grandes, a temperatura ambiente (120 g), 1 cucharadita de esencia de vainilla (5 ml), 2 tazas de avena (200 g), 1/2 taza de arándano deshidratado (75 g), 1/4 taza de coco rallado (25 g), 1/4 taza de nuez pecana picada (25 g), 1/4 taza de pasa (38 g).</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Precalienta el horno a 180 °C; engrasa las charolas para hornear con mantequilla, cubre con papel pergamino o papel para hornear y reserva.</li><li>Cierne la harina junto con el bicarbonato de sodio en un tazón mediano, después agrega la canela en polvo y la sal; mezcla con una palita hasta integrar.</li><li>Mezcla la mantequilla, el azúcar mascabado y el azúcar con una batidora a velocidad media, hasta obtener una consistencia suave y esponjosa, entre 3 y 6 minutos.</li><li>Agrega una a una las piezas de huevo y la esencia de vainilla, raspando los bordes del tazón con una espátula y mezclando antes de cada adición.</li><li>Integra la mezcla de harina poco a poco y sigue batiendo a velocidad baja hasta combinar; una vez que tengas una mezcla homogénea, integra el arándano seco, el coco rallado, la nuez y las pasas a velocidad baja; una vez lista la masa, refrigera durante 15 minutos.</li><li>Toma una porción de masa del tamaño de una pelota de ping-pong, aplástala y dale forma de galleta; coloca las galletas en una charola con papel encerado, con suficiente espacio, pues se extenderán; hornea a 180 °C por 18 minutos; una vez que salgan del horno, déjalas enfriar antes de disfrutar.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_MIERCOLES_DESAYUNO}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_MIERCOLES_DESAYUNO}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_MIERCOLES_DESAYUNO}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_MIERCOLES_DESAYUNO}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_MIERCOLES_DESAYUNO}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_MIERCOLES_DESAYUNO}}</strong></li><li><span>Keto</span><strong>{{KETO_MIERCOLES_DESAYUNO}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_MIERCOLES_DESAYUNO}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_MIERCOLES_DESAYUNO}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_MIERCOLES_DESAYUNO}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_MIERCOLES_DESAYUNO}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_MIERCOLES_DESAYUNO}}</strong></li><li><span>Balance</span><strong>{{BALANCE_MIERCOLES_DESAYUNO}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_MIERCOLES_DESAYUNO}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="miercoles-comida">
               <summary>
                 <span class="summary-kicker">Comida</span>
                 <span class="summary-title">Pechuga al horno con jamón y queso con una guarnición de ensalada y verduras al vapor</span>
-                <span class="summary-metrics">{{TIEMPO_MIERCOLES_COMIDA}} · {{CALORIAS_MIERCOLES_COMIDA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_MIERCOLES_COMIDA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_MIERCOLES_COMIDA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>4 pechugas de pollo deshuesadas y sin piel; 8 rebanadas de jamón de charcutería; 8 rebanadas de queso suizo; 1 taza de crema espesa; 1 cucharada de mostaza Dijon; 1 cucharadita de ajo en polvo; 1 cucharadita de cebolla en polvo; 1 cucharadita de tomillo seco; sal y pimienta al gusto; 1 taza de pan molido; 2 cucharadas de mantequilla derretida; perejil fresco para decorar (opcional).</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Precalienta el horno a 190 °C.</li><li>Sazona las pechugas con sal, pimienta, ajo en polvo, cebolla en polvo y tomillo, y colócalas en un refractario engrasado.</li><li>Coloca dos rebanadas de jamón y dos de queso suizo sobre cada pechuga.</li><li>En un tazón, bate la crema espesa con la mostaza Dijon y una pizca de sal y pimienta, y vierte la mezcla sobre el pollo hasta cubrirlo bien.</li><li>En otro tazón, mezcla el pan molido con la mantequilla derretida y espolvorea la mezcla de manera uniforme sobre el pollo.</li><li>Hornea de 30 a 35 minutos, o hasta que el pollo esté bien cocido y la cubierta dorada.</li><li>Retira del horno, deja reposar unos minutos, decora con perejil fresco si deseas y sirve caliente.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_MIERCOLES_COMIDA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_MIERCOLES_COMIDA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_MIERCOLES_COMIDA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_MIERCOLES_COMIDA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_MIERCOLES_COMIDA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_MIERCOLES_COMIDA}}</strong></li><li><span>Keto</span><strong>{{KETO_MIERCOLES_COMIDA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_MIERCOLES_COMIDA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_MIERCOLES_COMIDA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_MIERCOLES_COMIDA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_MIERCOLES_COMIDA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_MIERCOLES_COMIDA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_MIERCOLES_COMIDA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_MIERCOLES_COMIDA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="miercoles-colacion">
               <summary>
                 <span class="summary-kicker">Colación</span>
                 <span class="summary-title">Ensalada de pepino, espinaca, cebolla, zanahoria y cebolla</span>
-                <span class="summary-metrics">{{TIEMPO_MIERCOLES_COLACION}} · {{CALORIAS_MIERCOLES_COLACION}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_MIERCOLES_COLACION}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_MIERCOLES_COLACION}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>1 taza de espinaca; 1 taza de lechuga romana o lechuga de hoja picada; 1 zanahoria rallada o en juliana; 1/2 taza de jitomates cherry o uva; 1/4 de taza de cebolla morada en rebanadas finas; 1/2 taza de col morada; 1 pepino en rebanadas. Para la vinagreta de limón y ajo: 3 cucharadas de aceite de oliva, jugo de 1 limón, 1 diente de ajo picado, 1 cucharadita de mostaza Dijon, sal y pimienta al gusto. Opcionales: queso feta o de cabra desmoronado, crutones, ralladura de limón o hierbas frescas (perejil, eneldo o albahaca).</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Bate el aceite de oliva, el jugo de limón, el ajo, la mostaza Dijon, la sal y la pimienta hasta integrar la vinagreta.</li><li>En un tazón grande, combina la espinaca y la lechuga; agrega la zanahoria, el jitomate, la cebolla, el pepino y la col.</li><li>Rocía con la vinagreta y mezcla suavemente.</li><li>Cubre con queso o crutones si se desea.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_MIERCOLES_COLACION}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_MIERCOLES_COLACION}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_MIERCOLES_COLACION}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_MIERCOLES_COLACION}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_MIERCOLES_COLACION}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_MIERCOLES_COLACION}}</strong></li><li><span>Keto</span><strong>{{KETO_MIERCOLES_COLACION}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_MIERCOLES_COLACION}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_MIERCOLES_COLACION}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_MIERCOLES_COLACION}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_MIERCOLES_COLACION}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_MIERCOLES_COLACION}}</strong></li><li><span>Balance</span><strong>{{BALANCE_MIERCOLES_COLACION}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_MIERCOLES_COLACION}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="miercoles-cena">
               <summary>
                 <span class="summary-kicker">Cena</span>
                 <span class="summary-title">Sandwich de carne de res con col y vinagreta</span>
-                <span class="summary-metrics">{{TIEMPO_MIERCOLES_CENA}} · {{CALORIAS_MIERCOLES_CENA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_MIERCOLES_CENA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_MIERCOLES_CENA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>20 rebanadas de pan italiano, 10 cucharadas de mostaza, carne de res en rebanadas (carne de res en conserva, pastrami o carne de res asada), 20 rebanadas de queso provolone, 2 1/2 tazas de ensalada de repollo condimentada con aceite y vinagre, 20 rodajas de tomate, tiras de papas crujientes.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Prepara las tiras de papas crujientes de acuerdo con las instrucciones del empaque.</li><li>Unta 1 cucharada de mostaza en la rebanada inferior del pan.</li><li>Apila la carne sobre la mostaza y coloca dos rebanadas de queso sobre la carne.</li><li>Apila las tiras de papa sobre el queso, coloca 1/4 de taza de ensalada de col sobre las tiras de papa y 2 rodajas de tomate sobre la ensalada de col.</li><li>Cubre con otro trozo de pan y repite el proceso para los demás sándwiches.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_MIERCOLES_CENA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_MIERCOLES_CENA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_MIERCOLES_CENA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_MIERCOLES_CENA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_MIERCOLES_CENA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_MIERCOLES_CENA}}</strong></li><li><span>Keto</span><strong>{{KETO_MIERCOLES_CENA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_MIERCOLES_CENA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_MIERCOLES_CENA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_MIERCOLES_CENA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_MIERCOLES_CENA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_MIERCOLES_CENA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_MIERCOLES_CENA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_MIERCOLES_CENA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details></div>
         </section>
 <section class="detail-day" aria-labelledby="titulo-jueves">
-          <div class="day-heading"><p>Día</p><h3 id="titulo-jueves">Jueves</h3><span>{{FECHA_JUEVES_DIA}}</span></div>
+          <div class="day-heading"><p>Día</p><h3 id="titulo-jueves">Jueves</h3></div>
           <div class="dish-stack"><details class="dish" id="jueves-desayuno">
               <summary>
                 <span class="summary-kicker">Desayuno</span>
                 <span class="summary-title">Pudin de camote</span>
-                <span class="summary-metrics">{{TIEMPO_JUEVES_DESAYUNO}} · {{CALORIAS_JUEVES_DESAYUNO}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_JUEVES_DESAYUNO}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_JUEVES_DESAYUNO}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>2 camotes (batatas) grandes, 1/2 taza de azúcar, 1/4 de taza de mantequilla derretida, 2 huevos, 1 cucharadita de extracto de vainilla, 1/2 cucharadita de canela en polvo, 1/4 de cucharadita de nuez moscada, 1/4 de cucharadita de sal, 1 1/2 tazas de leche.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><p>1. Precalienta el horno a 180 °C (350 °F). 2. Lava y pela los camotes, córtalos en trozos pequeños para facilitar su cocción. 3. Hierve los trozos de camote en agua hasta que estén tiernos y se puedan triturar fácilmente con un tenedor, alrededor de 15 a 20 minutos; escúrrelos y tritúralos hasta obtener un puré suave; deja enfriar un poco. 4. En un tazón grande, mezcla el puré de camote, el azúcar y la mantequilla derretida hasta que estén bien combinados. 5. Agrega los huevos uno a la vez, batiendo bien después de cada adición; incorpora la vainilla, la canela, la nuez moscada y la sal. 6. Poco a poco, agrega la leche mientras revuelves la mezcla hasta que esté suave y homogénea. 7. Vierte la mezcla en un molde para hornear previamente engrasado. 8. Coloca el molde dentro de una fuente más grande y agrega agua caliente a la fuente hasta que alcance aproximadamente la mitad de la altura del molde para pudín, para cocinar en baño maría. 9. Hornea durante aproximadamente 50 a 60 minutos, o hasta que un palillo insertado en el centro salga limpio. 10. Retira el pudín del horno y del baño maría, y deja enfriar antes de servir. 11. Opcionalmente, puedes espolvorear un poco de azúcar sobre la parte superior y dorarla con un soplete de cocina para caramelizarla ligeramente. 12. Sirve caliente o a temperatura ambiente; puedes acompañarlo con crema batida, nueces picadas o una pizca adicional de canela.</p></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_JUEVES_DESAYUNO}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_JUEVES_DESAYUNO}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_JUEVES_DESAYUNO}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_JUEVES_DESAYUNO}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_JUEVES_DESAYUNO}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_JUEVES_DESAYUNO}}</strong></li><li><span>Keto</span><strong>{{KETO_JUEVES_DESAYUNO}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_JUEVES_DESAYUNO}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_JUEVES_DESAYUNO}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_JUEVES_DESAYUNO}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_JUEVES_DESAYUNO}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_JUEVES_DESAYUNO}}</strong></li><li><span>Balance</span><strong>{{BALANCE_JUEVES_DESAYUNO}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_JUEVES_DESAYUNO}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="jueves-comida">
               <summary>
                 <span class="summary-kicker">Comida</span>
                 <span class="summary-title">Papas a la crema con jamón y una guarnición de ensalada</span>
-                <span class="summary-metrics">{{TIEMPO_JUEVES_COMIDA}} · {{CALORIAS_JUEVES_COMIDA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_JUEVES_COMIDA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_JUEVES_COMIDA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>3 lb de papas Yukon Gold o russet, peladas; 3 cucharadas de mantequilla; 3 cucharadas de harina común; 2 tazas de leche entera; 1 taza de crema espesa; 2 tazas de queso cheddar fuerte rallado, divididas; 1/2 cucharadita de ajo en polvo; 1/2 cucharadita de sal, o al gusto; 1/4 de cucharadita de pimienta negra; 1/4 de cucharadita de pimentón (opcional); jamón (la fuente lo anuncia en el título pero no indica cantidad en la lista de ingredientes).</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Precalienta el horno a 190 °C y engrasa un refractario de 9 × 13 pulgadas con mantequilla o aceite en aerosol.</li><li>Pela las papas y córtalas en rodajas delgadas y parejas, de aprox. 1/8 de pulgada de grosor.</li><li>Derrite la mantequilla en una cacerola a fuego medio, agrega la harina batiendo y cocina 1 minuto; incorpora poco a poco la leche y la crema espesa hasta que quede suave.</li><li>Cocina revolviendo con frecuencia de 3 a 5 minutos, hasta que la salsa empiece a espesar; agrega el ajo en polvo, la sal, la pimienta y 1 1/2 tazas del queso cheddar, y mezcla hasta que el queso se derrita y la salsa quede suave, sin hervirla.</li><li>Coloca la mitad de las papas en el refractario, vierte la mitad de la salsa encima y distribuye de manera uniforme; agrega el resto de las papas y cúbrelas con el resto de la salsa.</li><li>Cubre bien el refractario con aluminio y hornea 45 minutos; retira el aluminio, espolvorea la 1/2 taza restante de queso cheddar y hornea sin cubrir de 25 a 35 minutos más, o hasta que las papas estén suaves al pincharlas con un tenedor y la superficie dorada y burbujeante.</li><li>Deja reposar de 10 a 15 minutos antes de servir para que la salsa se asiente.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_JUEVES_COMIDA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_JUEVES_COMIDA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_JUEVES_COMIDA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_JUEVES_COMIDA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_JUEVES_COMIDA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_JUEVES_COMIDA}}</strong></li><li><span>Keto</span><strong>{{KETO_JUEVES_COMIDA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_JUEVES_COMIDA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_JUEVES_COMIDA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_JUEVES_COMIDA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_JUEVES_COMIDA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_JUEVES_COMIDA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_JUEVES_COMIDA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_JUEVES_COMIDA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="jueves-colacion">
               <summary>
                 <span class="summary-kicker">Colación</span>
                 <span class="summary-title">Galletas de avena</span>
-                <span class="summary-metrics">{{TIEMPO_JUEVES_COLACION}} · {{CALORIAS_JUEVES_COLACION}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_JUEVES_COLACION}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_JUEVES_COLACION}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>2 tazas de harina (250 g), 1 cucharadita de bicarbonato (4 g), 1 cucharadita de canela en polvo (4 g), 1/4 cucharadita de sal (3 g), 1 1/8 tazas de mantequilla sin sal, en cubos y a temperatura ambiente (230 g), 1/2 taza de azúcar mascabado (90 g), 1/2 taza de azúcar refinada (100 g), 2 huevos grandes, a temperatura ambiente (120 g), 1 cucharadita de esencia de vainilla (5 ml), 2 tazas de avena (200 g), 1/2 taza de arándano deshidratado (75 g), 1/4 taza de coco rallado (25 g), 1/4 taza de nuez pecana picada (25 g), 1/4 taza de pasa (38 g).</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Precalienta el horno a 180 °C; engrasa las charolas para hornear con mantequilla, cubre con papel pergamino o papel para hornear y reserva.</li><li>Cierne la harina junto con el bicarbonato de sodio en un tazón mediano, después agrega la canela en polvo y la sal; mezcla con una palita hasta integrar.</li><li>Mezcla la mantequilla, el azúcar mascabado y el azúcar con una batidora a velocidad media, hasta obtener una consistencia suave y esponjosa, entre 3 y 6 minutos.</li><li>Agrega una a una las piezas de huevo y la esencia de vainilla, raspando los bordes del tazón con una espátula y mezclando antes de cada adición.</li><li>Integra la mezcla de harina poco a poco y sigue batiendo a velocidad baja hasta combinar; una vez que tengas una mezcla homogénea, integra el arándano seco, el coco rallado, la nuez y las pasas a velocidad baja; una vez lista la masa, refrigera durante 15 minutos.</li><li>Toma una porción de masa del tamaño de una pelota de ping-pong, aplástala y dale forma de galleta; coloca las galletas en una charola con papel encerado, con suficiente espacio, pues se extenderán; hornea a 180 °C por 18 minutos; una vez que salgan del horno, déjalas enfriar antes de disfrutar.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_JUEVES_COLACION}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_JUEVES_COLACION}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_JUEVES_COLACION}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_JUEVES_COLACION}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_JUEVES_COLACION}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_JUEVES_COLACION}}</strong></li><li><span>Keto</span><strong>{{KETO_JUEVES_COLACION}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_JUEVES_COLACION}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_JUEVES_COLACION}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_JUEVES_COLACION}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_JUEVES_COLACION}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_JUEVES_COLACION}}</strong></li><li><span>Balance</span><strong>{{BALANCE_JUEVES_COLACION}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_JUEVES_COLACION}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="jueves-cena">
               <summary>
                 <span class="summary-kicker">Cena</span>
                 <span class="summary-title">Ensalada de pepino, papa, jitomate, huevo, chile serrano y limón</span>
-                <span class="summary-metrics">{{TIEMPO_JUEVES_CENA}} · {{CALORIAS_JUEVES_CENA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_JUEVES_CENA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_JUEVES_CENA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>4 pepinos persas o 1 pepino inglés o común; 340 g de jitomates cherry o de la variedad preferida; 1/8 de cebolla morada; 3 cucharadas de aceite de oliva; 2 cucharadas de vinagre de vino tinto (también funciona vinagre blanco o de sidra de manzana); sal al gusto; pimienta al gusto.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Corta los pepinos en rodajas finas, los jitomates cherry por la mitad o en medias lunas si son más grandes, y la cebolla morada en rebanadas muy finas.</li><li>Acomoda el pepino, el jitomate y la cebolla en un tazón o plato.</li><li>Adereza con aceite de oliva, vinagre, sal y pimienta justo antes de servir, sin salar con anticipación para que no se aguade.</li><li>Mezcla y sirve de inmediato.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_JUEVES_CENA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_JUEVES_CENA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_JUEVES_CENA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_JUEVES_CENA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_JUEVES_CENA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_JUEVES_CENA}}</strong></li><li><span>Keto</span><strong>{{KETO_JUEVES_CENA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_JUEVES_CENA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_JUEVES_CENA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_JUEVES_CENA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_JUEVES_CENA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_JUEVES_CENA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_JUEVES_CENA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_JUEVES_CENA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details></div>
         </section>
 <section class="detail-day" aria-labelledby="titulo-viernes">
-          <div class="day-heading"><p>Día</p><h3 id="titulo-viernes">Viernes</h3><span>{{FECHA_VIERNES_DIA}}</span></div>
+          <div class="day-heading"><p>Día</p><h3 id="titulo-viernes">Viernes</h3></div>
           <div class="dish-stack"><details class="dish" id="viernes-desayuno">
               <summary>
                 <span class="summary-kicker">Desayuno</span>
                 <span class="summary-title">Sandwich de pollo teriyaki y col</span>
-                <span class="summary-metrics">{{TIEMPO_VIERNES_DESAYUNO}} · {{CALORIAS_VIERNES_DESAYUNO}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_VIERNES_DESAYUNO}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_VIERNES_DESAYUNO}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>1 pechuga de pollo, salsa teriyaki (150 cc de salsa de soya, 4 cucharadas de vinagre de arroz o de alcohol, 2 cucharadas de azúcar, 2 dientes de ajo picados, 1 cucharada de jengibre picado, 2 cucharadas de maicena, 3 cucharadas de agua), pan (300 g de harina integral, 50 g de harina 000, 1 huevo, 25 g de levadura fresca, 150 cc de agua, 1 cucharadita de sal, 25 g de manteca, 1 cucharada de azúcar), mayonesa, mostaza, repollo agridulce, aceite.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Mezcla las harinas en un bol, haz un hoyo en el centro y coloca la levadura desgranada junto con la cucharada de azúcar; mezcla con un poco de harina y deja reposar unos 10 minutos hasta que se forme espuma.</li><li>Agrega el huevo e incorpora el agua mientras amasas; pasa la masa a una mesada, incorpora toda la harina, agrega la manteca y la sal, amasa unos 10 minutos y deja reposar hasta que duplique el volumen.</li><li>Cocina el pollo en un sartén con un poquito de aceite hasta que esté dorado por completo, retíralo, filetéalo y resérvalo.</li><li>Para la salsa teriyaki, pon los ingredientes en una olla chica a calentar; cuando hierva, agrega la maicena para que espese, revuelve un minuto y retira.</li><li>Corta el pan en pedazos de 100 g, dales la forma deseada y déjalos reposar nuevamente hasta que dupliquen el volumen.</li><li>Coloca el pollo en la salsa y cocínalo unos 5 minutos más a fuego mínimo.</li><li>Hornea los panes leudados en horno precalentado a 200 °C por unos 15 minutos, retíralos y déjalos descansar y enfriar antes de cortar.</li><li>Para el armado, mezcla mayonesa y mostaza, colócala en ambas capas del pan, agrega el pollo y el repollo agridulce.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_VIERNES_DESAYUNO}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_VIERNES_DESAYUNO}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_VIERNES_DESAYUNO}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_VIERNES_DESAYUNO}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_VIERNES_DESAYUNO}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_VIERNES_DESAYUNO}}</strong></li><li><span>Keto</span><strong>{{KETO_VIERNES_DESAYUNO}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_VIERNES_DESAYUNO}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_VIERNES_DESAYUNO}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_VIERNES_DESAYUNO}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_VIERNES_DESAYUNO}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_VIERNES_DESAYUNO}}</strong></li><li><span>Balance</span><strong>{{BALANCE_VIERNES_DESAYUNO}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_VIERNES_DESAYUNO}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="viernes-comida">
               <summary>
                 <span class="summary-kicker">Comida</span>
                 <span class="summary-title">Caldo de res</span>
-                <span class="summary-metrics">{{TIEMPO_VIERNES_COMIDA}} · {{CALORIAS_VIERNES_COMIDA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_VIERNES_COMIDA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_VIERNES_COMIDA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>1 kilo de chamberete de res con tuétano, 3 papas medianas peladas y cortadas en cubos, 3 zanahorias peladas y cortadas en rodajas, 1 chayote pelado y cortado en cubos, 2 calabacitas verdes cortadas en rodajas, 2 tomates grandes picados, 1 cebolla grande picada, 4 dientes de ajo finamente picados, 1/4 de repollo cortado en tiras, 2 elotes enteros partidos en tres o cuatro partes, 1 manojo de cilantro finamente picado, sal al gusto, agua suficiente para cubrir, limón en cuartos para servir.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>En una olla grande, colocar el chamberete de res con suficiente agua para cubrirlo.</li><li>Llevar a ebullición y desespumar el caldo para quitar las impurezas.</li><li>Añadir la cebolla, los dientes de ajo y sal al gusto.</li><li>Reducir el fuego y dejar cocinar por aproximadamente 1 hora y 30 minutos, o hasta que la carne esté casi tierna.</li><li>Incorporar las papas, zanahorias, chayote, calabacitas, tomates y elotes, asegurándose de que haya suficiente agua para cubrir todos los ingredientes.</li><li>Continuar la cocción a fuego medio-bajo por unos 45 minutos más, o hasta que los vegetales estén cocidos.</li><li>Probar el caldo y ajustar la sal al gusto.</li><li>Añadir el repollo y cocinar por 10 minutos adicionales, o hasta que esté suave pero aún tenga algo de textura.</li><li>Servir el caldo caliente en tazones, agregar cilantro fresco picado al gusto en cada porción y ofrecer limón en cuartos.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_VIERNES_COMIDA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_VIERNES_COMIDA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_VIERNES_COMIDA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_VIERNES_COMIDA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_VIERNES_COMIDA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_VIERNES_COMIDA}}</strong></li><li><span>Keto</span><strong>{{KETO_VIERNES_COMIDA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_VIERNES_COMIDA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_VIERNES_COMIDA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_VIERNES_COMIDA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_VIERNES_COMIDA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_VIERNES_COMIDA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_VIERNES_COMIDA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_VIERNES_COMIDA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="viernes-colacion">
               <summary>
                 <span class="summary-kicker">Colación</span>
                 <span class="summary-title">Pudin de camote</span>
-                <span class="summary-metrics">{{TIEMPO_VIERNES_COLACION}} · {{CALORIAS_VIERNES_COLACION}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_VIERNES_COLACION}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_VIERNES_COLACION}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>2 camotes (batatas) grandes, 1/2 taza de azúcar, 1/4 de taza de mantequilla derretida, 2 huevos, 1 cucharadita de extracto de vainilla, 1/2 cucharadita de canela en polvo, 1/4 de cucharadita de nuez moscada, 1/4 de cucharadita de sal, 1 1/2 tazas de leche.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><p>1. Precalienta el horno a 180 °C (350 °F). 2. Lava y pela los camotes, córtalos en trozos pequeños para facilitar su cocción. 3. Hierve los trozos de camote en agua hasta que estén tiernos y se puedan triturar fácilmente con un tenedor, alrededor de 15 a 20 minutos; escúrrelos y tritúralos hasta obtener un puré suave; deja enfriar un poco. 4. En un tazón grande, mezcla el puré de camote, el azúcar y la mantequilla derretida hasta que estén bien combinados. 5. Agrega los huevos uno a la vez, batiendo bien después de cada adición; incorpora la vainilla, la canela, la nuez moscada y la sal. 6. Poco a poco, agrega la leche mientras revuelves la mezcla hasta que esté suave y homogénea. 7. Vierte la mezcla en un molde para hornear previamente engrasado. 8. Coloca el molde dentro de una fuente más grande y agrega agua caliente a la fuente hasta que alcance aproximadamente la mitad de la altura del molde para pudín, para cocinar en baño maría. 9. Hornea durante aproximadamente 50 a 60 minutos, o hasta que un palillo insertado en el centro salga limpio. 10. Retira el pudín del horno y del baño maría, y deja enfriar antes de servir. 11. Opcionalmente, puedes espolvorear un poco de azúcar sobre la parte superior y dorarla con un soplete de cocina para caramelizarla ligeramente. 12. Sirve caliente o a temperatura ambiente; puedes acompañarlo con crema batida, nueces picadas o una pizca adicional de canela.</p></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_VIERNES_COLACION}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_VIERNES_COLACION}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_VIERNES_COLACION}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_VIERNES_COLACION}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_VIERNES_COLACION}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_VIERNES_COLACION}}</strong></li><li><span>Keto</span><strong>{{KETO_VIERNES_COLACION}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_VIERNES_COLACION}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_VIERNES_COLACION}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_VIERNES_COLACION}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_VIERNES_COLACION}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_VIERNES_COLACION}}</strong></li><li><span>Balance</span><strong>{{BALANCE_VIERNES_COLACION}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_VIERNES_COLACION}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="viernes-cena">
               <summary>
                 <span class="summary-kicker">Cena</span>
                 <span class="summary-title">Ensalada de espinaca con queso feta, vinagreta y nueces</span>
-                <span class="summary-metrics">{{TIEMPO_VIERNES_CENA}} · {{CALORIAS_VIERNES_CENA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_VIERNES_CENA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_VIERNES_CENA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>Para la vinagreta: 1/2 taza de vinagre balsámico, 3/4 de taza de aceite de oliva, 1 cucharada de azúcar, 1/2 cucharadita de sal kosher, 1/8 de cucharadita de pimienta negra recién molida. Para la ensalada: 6 tazas de espinaca baby fresca, 1/2 taza de nueces picadas, 1/4 de taza de queso feta desmoronado, 1/4 de taza de fruta seca como arándanos o pasas.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Coloca el vinagre, el aceite de oliva, el azúcar, la sal y la pimienta en un frasco y agita bien para combinar.</li><li>Mezcla la espinaca con las nueces, el feta y la fruta seca.</li><li>Agita de nuevo el aderezo y rocíalo sobre las porciones individuales al servir.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_VIERNES_CENA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_VIERNES_CENA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_VIERNES_CENA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_VIERNES_CENA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_VIERNES_CENA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_VIERNES_CENA}}</strong></li><li><span>Keto</span><strong>{{KETO_VIERNES_CENA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_VIERNES_CENA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_VIERNES_CENA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_VIERNES_CENA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_VIERNES_CENA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_VIERNES_CENA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_VIERNES_CENA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_VIERNES_CENA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details></div>
         </section>
 <section class="detail-day" aria-labelledby="titulo-sabado">
-          <div class="day-heading"><p>Día</p><h3 id="titulo-sabado">Sábado</h3><span>{{FECHA_SABADO_DIA}}</span></div>
+          <div class="day-heading"><p>Día</p><h3 id="titulo-sabado">Sábado</h3></div>
           <div class="dish-stack"><details class="dish" id="sabado-desayuno">
               <summary>
                 <span class="summary-kicker">Desayuno</span>
                 <span class="summary-title">Sandwich de huevo con lechuga, queso y tocino</span>
-                <span class="summary-metrics">{{TIEMPO_SABADO_DESAYUNO}} · {{CALORIAS_SABADO_DESAYUNO}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_SABADO_DESAYUNO}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_SABADO_DESAYUNO}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>2 rebanadas de pan de sándwich, 2 tiras de tocino, 2 huevos grandes, 1 cucharada de mantequilla, 1 pizca de sal, 1 pizca de pimienta negra, 1 rebanada de queso cheddar, 1 cucharada de mayonesa, 1 hoja de lechuga, 2 rebanadas de tomate.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Precalienta un sartén a fuego medio, añade las tiras de tocino y cocina hasta que estén crujientes, unos 5 a 7 minutos, dándoles la vuelta a la mitad del tiempo; retíralas y colócalas en un plato con toallas de papel para que escurran.</li><li>Mientras se cocina el tocino, tuesta las rebanadas de pan hasta que estén doradas.</li><li>En el mismo sartén, baja el fuego, agrega la mantequilla y, una vez derretida, casca los huevos; espolvorea con sal y pimienta y cocina hasta que las claras estén cuajadas pero la yema aún esté líquida, aproximadamente 3 a 4 minutos.</li><li>Coloca la rebanada de queso cheddar en una de las rebanadas de pan mientras aún esté caliente para que se derrita ligeramente.</li><li>Extiende la mayonesa de manera uniforme en la otra rebanada de pan.</li><li>Arma el sándwich colocando la lechuga y las rodajas de tomate sobre el queso derretido, seguidas por el tocino cocido y los huevos fritos.</li><li>Coloca la otra rebanada de pan encima, con la mayonesa hacia abajo, corta por la mitad y sirve de inmediato.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_SABADO_DESAYUNO}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_SABADO_DESAYUNO}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_SABADO_DESAYUNO}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_SABADO_DESAYUNO}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_SABADO_DESAYUNO}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_SABADO_DESAYUNO}}</strong></li><li><span>Keto</span><strong>{{KETO_SABADO_DESAYUNO}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_SABADO_DESAYUNO}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_SABADO_DESAYUNO}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_SABADO_DESAYUNO}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_SABADO_DESAYUNO}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_SABADO_DESAYUNO}}</strong></li><li><span>Balance</span><strong>{{BALANCE_SABADO_DESAYUNO}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_SABADO_DESAYUNO}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="sabado-comida">
               <summary>
                 <span class="summary-kicker">Comida</span>
                 <span class="summary-title">Sopa de frijol</span>
-                <span class="summary-metrics">{{TIEMPO_SABADO_COMIDA}} · {{CALORIAS_SABADO_COMIDA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_SABADO_COMIDA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_SABADO_COMIDA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>2 tazas de frijoles negros cocidos, 2 tazas de caldo de frijoles, 3 tiras de tocino frito picado, 3 tortillas en tiritas fritas, 2 cucharadas de aceite o manteca, 1 jitomate asado, molido y colado, 1 ramita de epazote, ½ cebolla mediana picada, sal y pimienta al gusto.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Freír el tocino con el aceite hasta que esté bien dorado y cortarlo en pedacitos; reservar.</li><li>Sofreír la cebolla en la misma sartén.</li><li>Licuar los frijoles y vaciarlos en la sartén sobre la cebolla, integrar y calentar por cinco minutos.</li><li>Aparte, freír el jitomate molido y colado.</li><li>Incorporarlo a los frijoles con el caldo y el epazote, salpimentar y permitir que espese por 10 minutos a fuego bajo.</li><li>Distribuir en platos y colocar tiritas de tortilla y un poco de tocino en trocitos al llevar a la mesa.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_SABADO_COMIDA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_SABADO_COMIDA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_SABADO_COMIDA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_SABADO_COMIDA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_SABADO_COMIDA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_SABADO_COMIDA}}</strong></li><li><span>Keto</span><strong>{{KETO_SABADO_COMIDA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_SABADO_COMIDA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_SABADO_COMIDA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_SABADO_COMIDA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_SABADO_COMIDA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_SABADO_COMIDA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_SABADO_COMIDA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_SABADO_COMIDA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="sabado-colacion">
               <summary>
                 <span class="summary-kicker">Colación</span>
                 <span class="summary-title">Ensalada de espinaca con pollo, elote crunch y salsa de aguacate</span>
-                <span class="summary-metrics">{{TIEMPO_SABADO_COLACION}} · {{CALORIAS_SABADO_COLACION}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_SABADO_COLACION}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_SABADO_COLACION}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>Para el pollo: 2 pechugas de pollo sin hueso ni piel (unos 170 g cada una), 1 cucharada de aceite de oliva, 1 cucharadita de pimentón ahumado, 1 cucharadita de ajo en polvo, 1/2 cucharadita de cebolla en polvo, 1/2 cucharadita de comino molido, sal y pimienta negra recién molida al gusto. Para el tazón: 140 g de hojas verdes mixtas, 1 aguacate maduro en rebanadas, 1 taza de jitomates cherry partidos por la mitad, 1/2 pepino inglés en cubos, 1/4 de cebolla morada en rebanadas finas, 1/2 taza de granos de elote dulce (frescos, congelados o enlatados), 1/4 de taza de cilantro fresco picado. Para el aderezo de lima y cilantro: 3 cucharadas de aceite de oliva extra virgen, 2 cucharadas de jugo de lima fresco, 1 cucharada de miel o jarabe de maple, 1 diente de ajo pequeño picado, 2 cucharadas de cilantro fresco finamente picado, una pizca de sal y hojuelas de chile rojo opcional.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Seca las pechugas con papel absorbente; mezcla el aceite con el pimentón, el ajo en polvo, la cebolla en polvo, el comino, la sal y la pimienta, y unta generosamente el pollo por ambos lados.</li><li>Mezcla el aceite de oliva, el jugo de lima, la miel, el ajo y el cilantro picado, y bate o agita hasta emulsionar el aderezo.</li><li>Lava y seca las hojas verdes; parte los jitomates, corta el pepino en cubos y la cebolla en rebanadas finas; si el elote es de lata, escúrrelo y enjuágalo, y si es congelado, descongélalo y sécalo; rebana el aguacate justo antes de armar.</li><li>Asa el pollo en un sartén parrilla muy caliente a fuego medio-alto, 6 a 7 minutos por lado, hasta que alcance 74 °C en el centro; déjalo reposar al menos 5 minutos.</li><li>Rebana el pollo en tiras delgadas, divide las hojas verdes en dos tazones, acomoda encima el jitomate, el pepino, la cebolla, el elote y el aguacate, coloca el pollo, rocía con el aderezo, decora con cilantro y sirve de inmediato.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_SABADO_COLACION}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_SABADO_COLACION}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_SABADO_COLACION}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_SABADO_COLACION}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_SABADO_COLACION}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_SABADO_COLACION}}</strong></li><li><span>Keto</span><strong>{{KETO_SABADO_COLACION}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_SABADO_COLACION}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_SABADO_COLACION}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_SABADO_COLACION}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_SABADO_COLACION}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_SABADO_COLACION}}</strong></li><li><span>Balance</span><strong>{{BALANCE_SABADO_COLACION}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_SABADO_COLACION}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="sabado-cena">
               <summary>
                 <span class="summary-kicker">Cena</span>
                 <span class="summary-title">Sopa de pasta con espinaca y brocoli</span>
-                <span class="summary-metrics">{{TIEMPO_SABADO_CENA}} · {{CALORIAS_SABADO_CENA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_SABADO_CENA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_SABADO_CENA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>1 litro de caldo (en el que se haya cocido previamente una pechuga de pollo), 1 taza de brócoli, 1 taza de coliflor, ½ taza de espinacas baby o acelga, 1 1/2 taza de pasta.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Poner a calentar el caldo.</li><li>Agregar las verduras: brócoli, coliflor y espinaca.</li><li>Una vez cocidas las verduras, agregar la pasta.</li><li>Sazonar.</li><li>Servir.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_SABADO_CENA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_SABADO_CENA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_SABADO_CENA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_SABADO_CENA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_SABADO_CENA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_SABADO_CENA}}</strong></li><li><span>Keto</span><strong>{{KETO_SABADO_CENA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_SABADO_CENA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_SABADO_CENA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_SABADO_CENA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_SABADO_CENA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_SABADO_CENA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_SABADO_CENA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_SABADO_CENA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details></div>
         </section>
 <section class="detail-day" aria-labelledby="titulo-domingo">
-          <div class="day-heading"><p>Día</p><h3 id="titulo-domingo">Domingo</h3><span>{{FECHA_DOMINGO_DIA}}</span></div>
+          <div class="day-heading"><p>Día</p><h3 id="titulo-domingo">Domingo</h3></div>
           <div class="dish-stack"><details class="dish" id="domingo-desayuno">
               <summary>
                 <span class="summary-kicker">Desayuno</span>
                 <span class="summary-title">Gelatina con yogurt y nueces</span>
-                <span class="summary-metrics">{{TIEMPO_DOMINGO_DESAYUNO}} · {{CALORIAS_DOMINGO_DESAYUNO}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_DOMINGO_DESAYUNO}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_DOMINGO_DESAYUNO}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>1 taza de leche de vaca, para la gelatina de yogurt; 1 taza de yogur, para la gelatina de yogurt; 2 tazas de durazno en almíbar, para la gelatina de yogurt; cantidad suficiente de colorante artificial naranja, para la gelatina de yogurt; 1/4 taza de grenetina, hidratada y fundida, para la gelatina de yogurt; 1 sobre de gelatina de durazno (25 g), para la gelatina cristalina; 1/4 taza de nuez entera; crema batida al gusto, para decorar; nuez finamente picada al gusto, para decorar; durazno en almíbar al gusto, para decorar.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Para la gelatina de yogurt, licúa la leche con el yogurt, los duraznos en almíbar, el colorante vegetal y la grenetina hidratada y fundida; vierte una capa delgada en un molde previamente engrasado y refrigera hasta que cuaje; reserva el resto de la gelatina.</li><li>En un bowl mezcla el agua caliente con el polvo de gelatina de durazno hasta que se incorporen los ingredientes; vierte la mitad de la gelatina en un molde más pequeño que el usado para la gelatina de yogurt, coloca nueces y refrigera hasta que cuaje; repite el mismo proceso.</li><li>Desmolda la gelatina de agua y colócala sobre la de yogurt, vierte la gelatina restante de yogurt y refrigera hasta que cuaje.</li><li>Desmolda, decora con crema batida, gajos de durazno en almíbar y nuez picada.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_DOMINGO_DESAYUNO}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_DOMINGO_DESAYUNO}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_DOMINGO_DESAYUNO}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_DOMINGO_DESAYUNO}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_DOMINGO_DESAYUNO}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_DOMINGO_DESAYUNO}}</strong></li><li><span>Keto</span><strong>{{KETO_DOMINGO_DESAYUNO}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_DOMINGO_DESAYUNO}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_DOMINGO_DESAYUNO}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_DOMINGO_DESAYUNO}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_DOMINGO_DESAYUNO}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_DOMINGO_DESAYUNO}}</strong></li><li><span>Balance</span><strong>{{BALANCE_DOMINGO_DESAYUNO}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_DOMINGO_DESAYUNO}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="domingo-comida">
               <summary>
                 <span class="summary-kicker">Comida</span>
                 <span class="summary-title">Pechuga al horno con jamón y queso con una guarnición de ensalada y verduras al vapor</span>
-                <span class="summary-metrics">{{TIEMPO_DOMINGO_COMIDA}} · {{CALORIAS_DOMINGO_COMIDA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_DOMINGO_COMIDA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_DOMINGO_COMIDA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>4 pechugas de pollo deshuesadas y sin piel; 8 rebanadas de jamón de charcutería; 8 rebanadas de queso suizo; 1 taza de crema espesa; 1 cucharada de mostaza Dijon; 1 cucharadita de ajo en polvo; 1 cucharadita de cebolla en polvo; 1 cucharadita de tomillo seco; sal y pimienta al gusto; 1 taza de pan molido; 2 cucharadas de mantequilla derretida; perejil fresco para decorar (opcional).</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Precalienta el horno a 190 °C.</li><li>Sazona las pechugas con sal, pimienta, ajo en polvo, cebolla en polvo y tomillo, y colócalas en un refractario engrasado.</li><li>Coloca dos rebanadas de jamón y dos de queso suizo sobre cada pechuga.</li><li>En un tazón, bate la crema espesa con la mostaza Dijon y una pizca de sal y pimienta, y vierte la mezcla sobre el pollo hasta cubrirlo bien.</li><li>En otro tazón, mezcla el pan molido con la mantequilla derretida y espolvorea la mezcla de manera uniforme sobre el pollo.</li><li>Hornea de 30 a 35 minutos, o hasta que el pollo esté bien cocido y la cubierta dorada.</li><li>Retira del horno, deja reposar unos minutos, decora con perejil fresco si deseas y sirve caliente.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_DOMINGO_COMIDA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_DOMINGO_COMIDA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_DOMINGO_COMIDA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_DOMINGO_COMIDA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_DOMINGO_COMIDA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_DOMINGO_COMIDA}}</strong></li><li><span>Keto</span><strong>{{KETO_DOMINGO_COMIDA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_DOMINGO_COMIDA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_DOMINGO_COMIDA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_DOMINGO_COMIDA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_DOMINGO_COMIDA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_DOMINGO_COMIDA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_DOMINGO_COMIDA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_DOMINGO_COMIDA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="domingo-colacion">
               <summary>
                 <span class="summary-kicker">Colación</span>
                 <span class="summary-title">Ensalada con mix de lechuga con pollo, huevo y garbanzos crunch</span>
-                <span class="summary-metrics">{{TIEMPO_DOMINGO_COLACION}} · {{CALORIAS_DOMINGO_COLACION}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_DOMINGO_COLACION}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_DOMINGO_COLACION}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>Para los garbanzos crujientes: 1 taza de garbanzos cocidos (enlatados y escurridos), 2 cucharadas de aceite de oliva, sal al gusto, 1/2 cucharadita de pimentón picante, 1 cucharadita de pimentón dulce. Para la ensalada: 1 lechuga pequeña picada, 1/2 taza de elote dulce, 4 cucharadas de aceitunas en rebanadas, 3 cebollines picados, 1 aguacate en rebanadas, 2 cucharadas de aceite de oliva, 1 cucharada de jugo de limón, tahini opcional.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Seca muy bien los garbanzos con un paño limpio antes de sazonarlos.</li><li>Mezcla los garbanzos con el aceite, la sal y los pimentones, y extiéndelos en una charola forrada con papel para hornear.</li><li>Hornea a 180 °C (375 °F) de 15 a 20 minutos, hasta que estén crujientes y dorados.</li><li>Mientras tanto, mezcla todos los ingredientes de la ensalada.</li><li>Cubre la ensalada con los garbanzos crujientes justo antes de servir y rocía con tahini si se desea.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_DOMINGO_COLACION}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_DOMINGO_COLACION}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_DOMINGO_COLACION}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_DOMINGO_COLACION}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_DOMINGO_COLACION}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_DOMINGO_COLACION}}</strong></li><li><span>Keto</span><strong>{{KETO_DOMINGO_COLACION}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_DOMINGO_COLACION}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_DOMINGO_COLACION}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_DOMINGO_COLACION}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_DOMINGO_COLACION}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_DOMINGO_COLACION}}</strong></li><li><span>Balance</span><strong>{{BALANCE_DOMINGO_COLACION}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_DOMINGO_COLACION}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details><details class="dish" id="domingo-cena">
               <summary>
                 <span class="summary-kicker">Cena</span>
                 <span class="summary-title">Crema de espinaca</span>
-                <span class="summary-metrics">{{TIEMPO_DOMINGO_CENA}} · {{CALORIAS_DOMINGO_CENA}}</span>
+                <span class="summary-metrics">Datos en preparación</span>
               </summary>
               <div class="dish-body">
                 <div class="dish-main">
-                  <section><h4>Ingredientes</h4><div class="rich-field">{{INGREDIENTES_DOMINGO_CENA}}</div></section>
-                  <section><h4>Preparación</h4><div class="rich-field">{{PREPARACION_DOMINGO_CENA}}</div></section>
+                  <section><h4>Ingredientes</h4><div class="rich-field"><p>3 cucharadas de mantequilla sin sal, 3/4 taza de cebolla en cubos grandes, 1 diente de ajo, 2 paquetes de espinaca, 3 tazas de leche, 1 taza de media crema, cantidad suficiente de sal, cantidad suficiente de pimienta, cantidad suficiente de queso añejo para decorar, cantidad suficiente de espinaca fresca para decorar.</p></div></section>
+                  <section><h4>Preparación</h4><div class="rich-field"><ol><li>Calentar la mantequilla en una olla a temperatura media y sofreír la cebolla y el ajo por 3 minutos, hasta que estén completamente traslúcidos.</li><li>Agregar la espinaca y sofreír unos minutos más.</li><li>Agregar la leche y la crema, esperar a que hierva, luego sazonar con sal y pimienta y retirar del fuego.</li><li>Licuar lo anterior por 3 minutos y regresar a la olla para calentar nuevamente la crema.</li><li>Pasar por un colador si se considera necesario y sazonar nuevamente si lo requiere.</li><li>Servir la crema de espinaca y decorar con queso desmoronado y espinaca fresca.</li></ol></div></section>
                 </div>
                 <aside class="dish-facts">
                   <dl>
-                    <div><dt>Tiempo</dt><dd>{{TIEMPO_DOMINGO_CENA}}</dd></div>
-                    <div><dt>Calorías aprox.</dt><dd>{{CALORIAS_DOMINGO_CENA}}</dd></div>
-                    <div><dt>Porción</dt><dd>{{PORCION_DOMINGO_CENA}}</dd></div>
-                    <div><dt>Alergias</dt><dd>{{ALERGIAS_DOMINGO_CENA}}</dd></div>
+                    <div><dt>Tiempo</dt><dd>Próximamente</dd></div>
+                    <div><dt>Calorías aprox.</dt><dd>Pendiente por porción</dd></div>
+                    <div><dt>Porción</dt><dd>Próximamente</dd></div>
+                    <div><dt>Alergias</dt><dd>Pendiente de confirmar</dd></div>
                   </dl>
                   <h4>Compatibilidad</h4>
-                  <ul class="compatibility"><li><span>Diabético</span><strong>{{DIABETICO_DOMINGO_CENA}}</strong></li><li><span>Hipertensión</span><strong>{{HIPERTENSO_DOMINGO_CENA}}</strong></li><li><span>Keto</span><strong>{{KETO_DOMINGO_CENA}}</strong></li><li><span>Veggie</span><strong>{{VEGGIE_DOMINGO_CENA}}</strong></li><li><span>Alto en proteína</span><strong>{{HIGH_PROTEIN_DOMINGO_CENA}}</strong></li><li><span>Sin gluten</span><strong>{{SIN_GLUTEN_DOMINGO_CENA}}</strong></li><li><span>Adulto mayor</span><strong>{{ADULTO_MAYOR_DOMINGO_CENA}}</strong></li><li><span>Infantil</span><strong>{{INFANTIL_DOMINGO_CENA}}</strong></li><li><span>Balance</span><strong>{{BALANCE_DOMINGO_CENA}}</strong></li></ul>
-                  <p class="notes"><strong>Observaciones:</strong> {{OBSERVACIONES_DOMINGO_CENA}}</p>
+                  <ul class="compatibility"><li><span>Diabético</span><strong>—</strong></li><li><span>Hipertensión</span><strong>—</strong></li><li><span>Keto</span><strong>—</strong></li><li><span>Veggie</span><strong>—</strong></li><li><span>Alto en proteína</span><strong>—</strong></li><li><span>Sin gluten</span><strong>—</strong></li><li><span>Adulto mayor</span><strong>—</strong></li><li><span>Infantil</span><strong>—</strong></li><li><span>Balance</span><strong>—</strong></li></ul>
+                  <p class="notes"><strong>Observaciones:</strong> Próximamente</p>
                 </aside>
               </div>
             </details></div>
